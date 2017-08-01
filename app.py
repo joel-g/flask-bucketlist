@@ -10,7 +10,7 @@ def main():
 def showSignUp():
     return render_template('signup.html')
 
-@app.route('/signUp'),methods=['POST'])
+@app.route('/signUp',methods=['POST'])
 def signUp():
 
     _name = request.form['inputName']
